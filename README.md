@@ -36,11 +36,12 @@ This project is a simple web application for managing a bank account. Users can 
 - [Bootstrap 5](https://getbootstrap.com/)
 
 ## File Structure
+```
 bank-account-management/
 ├── index.html
 ├── index.css
 └── index.js
-
+```
 
 ### `index.html`
 The HTML file contains the structure of the web application, including the form for user input and the result display area.
