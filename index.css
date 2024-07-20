@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3c562 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    margin-bottom: 1em;
+    /* align-items: center; */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.input-container label,
+.input-container select,
+.input-container input,
+.input-container button {
+    margin: 5px;
+}
+  
+.input-container select,
+.input-container input {
+    flex: 1;
+}  
+
+ button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+#result {
+    font-weight: bold;
+    /* color: rgb(255, 255, 255) !important; */
+} 
+
+/**/
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #b2beb5; /* ash color *
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 80%;
+    max-width: 400px;
+}
+
+.card-header {
+    padding: 1rem;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-footer {
+    padding: 1rem;
+}
+
+.input-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container label,
+.input-container select,
+.input-container input,
+.input-container button {
+    margin: 5px;
+    width: 100%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+#result {
+    font-weight: bold;
+} */
